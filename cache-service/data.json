@@ -1,0 +1,43 @@
+{
+    "dataSetVersion": "1",
+    "lifecycleStatus": "Active",
+    "serviceGrantId": 4702,
+    "allowServiceStateRules": false,
+    "serviceGrantName": "Call forwarding unconditional",
+    "serviceGrantType": "FNIUA",
+    "serviceSpecificationCharacteristics": {
+      "serviceGrantId": 4702,
+      "serviceSpecificationCharacteristicsId": 1,
+      "configurable": true,
+      "description": "Description",
+      "maxCardinality": 1,
+      "minCardinality": 0,
+      "serviceSpecificationCharacteristicsName": "ABCDEFGHIJKLMNOPQRSTUVWXYZA"
+    },
+    "serviceSpecificationCharacteristicsValue": {
+      "serviceSpecificationCharacteristicsId": 1,
+      "isDefault": false,
+      "entityBaseType": "string",
+      "value": "value"
+    },
+    "RFSSCategoryType": {
+      "categoryID": 15,
+      "serviceGrantId": 4702,
+      "categoryType": "category",
+      "categoryName": "categoryname"
+    },
+    "resourceFacingServiceSpecification": {
+      "categoryID": 15,
+      "serviceGrantId": 4702,
+      "rfssName": "SDP User",
+      "rfssId": 54459,
+      "rfssType": "Generic",
+      
+      "rfssImlementation": {}
+    },
+    "serviceGrantSpecificationToRfss": {
+      "rfssId": 1004,
+      "serviceGrantId": 4702
+      
+    }
+  }
